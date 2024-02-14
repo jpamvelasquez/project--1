@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" href="./images/icon-logo.svg" />
+    <title>Travellers</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" alt="Travels Logo" src="./images/logo (1).svg" />
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link active" href="#">Home</a></li>
+          <li><a class="main-nav-link" href="#">About</a></li>
+          <li><a class="main-nav-link" href="#travelmore">Destinations</a></li>
+          <li><a class="main-nav-link" href="#">Contact us</a></li>
+        </ul>
+      </nav>
+      <div class="socials">
+        <i class="bi bi-facebook social"></i>
+        <i class="bi bi-twitter-x social"></i>
+        <i class="bi bi-instagram social"></i>
+        <i class="bi bi-pinterest social"></i>
+      </div>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text">
+            <h1 class="heading">
+              Embark on your next adventure with us - Where Every Journey
+              Begins.
+            </h1>
+            <p class="hero-description">
+              Welcome to our world of wanderlust, where every journey is crafted
+              to inspire and fulfill your travel dreams. From breathtaking
+              destinations to unforgettable experiences, we specialize in
+              curating the perfect itinerary tailored to your desires.
+            </p>
+
+            <a href="#travelmore" class="btn">View More &darr; </a>
+          </div>
+          <div class="hero-img-box">
+            <img src="./images/hero.png" class="hero-image" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- About -->
+
+    <!-- <section class="about">
+      <div class="whoweare">
+        <h2 class="about-text">About us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          consectetur nostrum ullam debitis sapiente ipsa odit ipsum consequatur
+          necessitatibus autem voluptatem esse, quam aperiam illum quasi
+          nesciunt provident cupiditate dolores?
+        </p>
+      </div>
+    </section> -->
+
+    <!-- DESTINATIONS -->
+    <hr class="hr" />
+    <section id="travelmore">
+      <div class="text-destination">
+        <h3 class="common-header">Destinations</h3>
+      </div>
+      <div class="search-bar">
+        <form>
+          <div class="location-form">
+            <label>Location</label>
+            <input type="text" placeholder="Where are you going?" />
+          </div>
+          <div>
+            <label>Check in</label>
+            <input type="text" placeholder="Add Date" />
+          </div>
+          <div>
+            <label>Check out</label>
+            <input type="text" placeholder="Add Date" />
+          </div>
+          <div>
+            <label>Guest</label>
+            <input type="text" placeholder="Add Guest" />
+          </div>
+          <button type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+      <div class="most-visited">
+        <h2 class="visited-text">Most Visited</h2>
+      </div>
+      <div class="destination">
+        <div class="container">
+          <div class="card">
+            <div class="imgCard">
+              <img src="./images/egypt.jpg" />
+              <p class="sale">SALE -30% Off</p>
+            </div>
+
+            <div class="content">
+              <h3>EGYPT</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                odio accusamus sunt tempore aliquam error voluptatem nisi
+                praesentium laboriosam necessitatibus.
+              </p>
+              <a href="#">Book Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgCard">
+              <img src="./images/germany.jpg" />
+              <p class="sale">SALE -20% Off</p>
+            </div>
+
+            <div class="content">
+              <h3>GERMANY</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                odio accusamus sunt tempore aliquam error voluptatem nisi
+                praesentium laboriosam necessitatibus.
+              </p>
+              <a href="#">Book Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgCard">
+              <img src="./images/iceland.jpg" />
+              <p class="sale">SALE -20% Off</p>
+              <p class="popular">POPULAR</p>
+            </div>
+
+            <div class="content">
+              <h3>ICELAND</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                odio accusamus sunt tempore aliquam error voluptatem nisi
+                praesentium laboriosam necessitatibus.
+              </p>
+              <a href="#">Book Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgCard">
+              <img src="./images/indonesia.jpg" />
+              <p class="sale">SALE -30% Off</p>
+            </div>
+            <div class="content">
+              <h3>INDONESIA</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                odio accusamus sunt tempore aliquam error voluptatem nisi
+                praesentium laboriosam necessitatibus.
+              </p>
+              <a href="#">Book Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgCard">
+              <img src="./images/japan.jpg" />
+              <p class="sale">SALE -15% Off</p>
+            </div>
+            <div class="content">
+              <h3>JAPAN</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                odio accusamus sunt tempore aliquam error voluptatem nisi
+                praesentium laboriosam necessitatibus.
+              </p>
+              <a href="#">Book Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgCard">
+              <img src="./images/philippines.jpg" />
+              <p class="sale">SALE -40% Off</p>
+              <p class="popular">POPULAR</p>
+            </div>
+            <div class="content">
+              <h3>PHILIPPINES</h3>
+              <p class="location">
+                <i class="bi bi-geo-alt-fill"></i> El Nido, Palawan
+              </p>
+              <div class="info-booking">
+                <div class="amenities">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+              <a href="#">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured -->
+    <hr class="hr" />
+    <section class="featured-box">
+      <div class="featured">
+        <div class="container">
+          <h2 class="heading-featured">As featured in</h2>
+        </div>
+        <div class="featured-logos">
+          <img src="./images/2.png" />
+          <img src="images/3.png" />
+          <img src="images/1.png" />
+          <img src="images/4.png" />
+          <img src="images/5.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col">
+          <img src="./images/logo (1).svg" alt="Travels logo" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            natus earum cum atque perspiciatis necessitatibus adipisci illo
+            dolores dicta velit.
+          </p>
+        </div>
+        <div class="col">
+          <h3>Office</h3>
+          <p>Region III</p>
+          <p>Region III</p>
+          <p class="email">travels@gmail.com</p>
+          <p class>+63 9123456789</p>
+        </div>
+        <div class="col">
+          <h3>Links</h3>
+          <ul class="service">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Newsletter</h3>
+          <form class="form-footer">
+            <i class="bi bi-envelope-at-fill"></i>
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit"><i class="bi bi-arrow-right"></i></button>
+          </form>
+          <div class="footer-social">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-pinterest"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copy">TRAVELS &copy - All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
