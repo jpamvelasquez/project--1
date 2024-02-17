@@ -25,13 +25,19 @@ html {
   cursor: pointer;
 }
 
+header {
+  background-color: #ecf4d6;
+}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ecf4d6;
+
   height: 8rem;
-  padding: 0 4.8rem;
+  /* padding: 0 4.8rem; */
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .main-nav-list .active {
@@ -305,7 +311,7 @@ html {
 
 .search-bar {
   background-color: #ecf4d6;
-  width: 70%;
+  max-width: 130rem;
   margin: 8rem auto;
   /* border: 1px solid rgb(78, 23, 150); */
   padding: 1.6rem 2rem 1.6rem 3rem;
@@ -355,8 +361,9 @@ html {
 
 .most-visited {
   /* border: 1px solid black; */
-  width: 70%;
+  width: 130rem;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .visited-text {
@@ -625,7 +632,7 @@ html {
   opacity: 70%;
 }
 .container-map {
-  max-width: 90%;
+  max-width: 130rem;
   margin: 0 auto 4rem;
 }
 .map iframe {
@@ -660,14 +667,18 @@ html {
 
 /* footer */
 
+footer {
+  background-color: #ecf4d6 !important;
+}
 .footer {
-  width: 100%;
+  width: 130rem;
   bottom: 0;
   padding: 3rem 0 3rem;
   font-size: 1.6rem;
   line-height: 2rem;
-  background-color: #ecf4d6 !important;
+
   /* position: absolute; */
+  margin: 0 auto;
 }
 .footer img {
   height: 6rem;
@@ -675,7 +686,7 @@ html {
 }
 
 .row {
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -757,7 +768,7 @@ form button .bi {
 }
 
 hr {
-  width: 90%;
+  width: 100%;
   border: 0;
   border-bottom: 1px solid #0e0c0c;
   margin: 2rem auto;
