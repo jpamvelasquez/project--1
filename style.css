@@ -26,7 +26,7 @@ html {
 }
 
 header {
-  background-color: #ecf4d6;
+  background-color: #e7eff6;
 }
 .header {
   display: flex;
@@ -40,9 +40,6 @@ header {
   padding: 2rem;
 }
 
-.main-nav-list .active {
-  color: #0c0836;
-}
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -51,9 +48,16 @@ header {
   font-weight: 500;
 }
 
+.main-nav-link:hover {
+  color: #083864;
+  scale: 1.2;
+  font-weight: 600;
+}
+
 .main-nav-link {
   text-decoration: none;
   color: #333b;
+  transition: 0.6s;
 }
 
 .hero {
@@ -89,11 +93,11 @@ header {
 
 .btn:link,
 .btn:visited {
-  background-color: #39d2ca;
+  background-color: #0d5ea6;
   padding: 1.6rem;
   font-size: 1.6rem;
   text-decoration: none;
-  color: black;
+  color: rgb(240, 234, 234);
   font-weight: 600;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
@@ -150,7 +154,7 @@ header {
 .sale {
   position: absolute;
   display: inline-block;
-  background-color: #ec8b4f;
+  background-color: #094274;
   width: 15rem;
   padding: 1rem;
   top: 1rem;
@@ -159,13 +163,14 @@ header {
   font-size: 1.5rem;
   text-align: center;
   font-family: Geneva, Verdana, sans-serif;
+  color: white;
   /* border-radius: 50px; */
 }
 
 .popular {
   position: absolute;
   display: inline-block;
-  background-color: #ec8b4f;
+  background-color: #094274;
   width: 15rem;
   padding: 1rem;
   top: 5.5rem;
@@ -174,6 +179,7 @@ header {
   font-size: 1.5rem;
   text-align: center;
   font-family: Geneva, Verdana, sans-serif;
+  color: white;
 }
 .container .card:hover {
   height: 40rem;
@@ -264,7 +270,7 @@ header {
 }
 .amenities {
   margin-top: 0.9rem;
-  color: rgb(237, 103, 41);
+  color: rgb(128, 128, 33);
   font-weight: 600;
   font-size: 1.8rem;
 }
@@ -283,8 +289,8 @@ header {
 }
 
 .more a {
-  background-color: #39d2ca;
-  padding: 1.5rem;
+  background-color: #094274;
+  padding: 1.4rem;
   font-size: 1.6rem;
   text-decoration: none;
   color: black;
@@ -293,6 +299,7 @@ header {
   display: inline-block;
   text-align: center;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color: white;
 }
 .packages {
   display: flex;
@@ -310,15 +317,13 @@ header {
 }
 
 .search-bar {
-  background-color: #ecf4d6;
+  background-color: #e7eff6;
   max-width: 130rem;
   margin: 8rem auto;
   /* border: 1px solid rgb(78, 23, 150); */
   padding: 1.6rem 2rem 1.6rem 3rem;
-  /* border-radius: 5rem; */
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .search-bar form {
@@ -339,15 +344,17 @@ header {
 }
 
 .search-bar form button {
-  background-color: #39d2ca;
+  background-color: #083864;
   width: 4.5rem;
   height: 4.5rem;
   border-radius: 50%;
+  color: white;
 }
 
 .search-bar form button .bi {
   width: 1.5rem;
   margin-left: 0.9rem;
+  color: white;
 }
 
 .location-form {
@@ -374,7 +381,7 @@ header {
 .visited-text:after {
   content: "";
   position: absolute;
-  background-color: #39d2ca;
+  background-color: #0a4b85;
   width: 7.5rem;
   height: 0.7rem;
   bottom: -1.7rem;
@@ -549,23 +556,23 @@ header {
 }
 
 .team-image {
-  width: 55%;
+  width: 50%;
   height: 60rem;
-  background-image: url(./images/team1.jpg);
-  background-position-y: 90%;
+  background-image: url(./images/team2.jpg);
+  background-position-y: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   /* margin-left: 6rem; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .team-text {
-  max-width: 45%;
+  max-width: 50%;
   height: 30rem;
   /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(148, 148, 51);
+  background-color: #e7eff6;
   padding: 3.5rem;
   margin-left: -4rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -581,13 +588,15 @@ header {
 }
 .team-content a {
   text-decoration: none;
-  background-color: #ccc;
+  background-color: #094274;
   color: black;
-  padding: 1rem;
+  padding: 0.8rem;
   margin-top: 1.5rem;
   display: inline-block;
-  font-weight: 600;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -668,7 +677,7 @@ header {
 /* footer */
 
 footer {
-  background-color: #ecf4d6 !important;
+  background-color: #e7eff6;
 }
 .footer {
   width: 130rem;
